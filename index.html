@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="dice.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="dice.js"></script>
+</head>
+<body onload="Start()">
+
+<div id="page" class="page">
+	<div id="header" class="header">
+	Purplepixie Non-Transitive Dice Simulation
+	</div>
+
+	<div id="body" class="body">
+
+	<div id="selection" class="selection">
+		<div id="chooser" class="chooser">
+			<div id="available" class="available">
+				<div id="choosertitle-available" class="choosertitle">
+				Available Dice
+				</div>
+				<div id="available-dice" class="dicelist"></div>
+			</div>
+			<div id="selected" class="selected">
+				<div id="choosertitle-selected" class="choosertitle">
+				Selected Dice
+				</div>
+				<div id="selected-dice" class="dicelist"></div>
+			</div>
+		</div>
+		<div id="selectoptions" class="selectoptions">
+			<button type="button" id="resetButton" class="optionButton" onclick="GAME.Reset()">Reset Options</button>
+			<input type="text" id="iterations" class="optionInput" value="100" />
+			<button type="button" id="startButton" class="optionButton" onclick="GAME.Start()">Run Simulation</button>
+		</div>
+	</div>
+
+	<div id="results" class="results">
+		<div id="headline" class="headline">
+		</div>
+		<div id="console" class="console">
+		</div>
+	</div>
+
+	</div>
+</div>
+
+</body>
+</html>

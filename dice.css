@@ -1,0 +1,60 @@
+body
+{
+	font-family: verdana, sans-serif;
+	font-size: 14pt;
+}
+
+.header
+{
+	font-size: 22pt;
+	font-weight: bold;
+	padding-bottom: 1em;
+}
+
+#available
+{
+	float: left;
+	padding-right: 1em;
+}
+
+#selected
+{
+	float: left;
+	padding-left: 1em;
+}
+
+.dice
+{
+	padding: 1em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	width: 8em;
+	text-align: center;
+}
+
+.dicetitle
+{
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+.dicesides
+{
+	font-size: 8pt;
+}
+
+#selectoptions
+{
+	clear: both;
+}
+
+#selectoptions button
+{
+	font-size: 14pt;
+	background-color: none;
+}
+
+#selectoptions input
+{
+	font-size: 14pt;
+}
